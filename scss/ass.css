@@ -1,0 +1,52 @@
+nav ul {
+  float: right;
+  display: inline-flex;
+  list-style-type: none;
+  padding-right: 60px;
+}
+nav li {
+  margin: 4px;
+  color: #707070;
+}
+nav .border {
+  border: 2px outset;
+}
+nav .border img {
+  padding-left: 40px;
+}
+nav .center {
+  margin-top: 65px;
+  color: #707070;
+}
+nav .center h2 {
+  text-align: center;
+}
+nav .center p {
+  text-align: center;
+}
+nav .picture {
+  display: flex;
+  padding-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+nav .picture .column {
+  width: 300px;
+}
+nav .picture .column p {
+  width: 25ch;
+  color: #707070;
+  word-spacing: 5px;
+}
+nav .picture .column img {
+  width: 200px;
+}
+nav .natural li p {
+  width: 35ch;
+  padding-right: 115px;
+  color: #707070;
+}
+nav .natural img {
+  width: 1250px;
+  padding-left: 15px;
+}/*# sourceMappingURL=ass.css.map */
