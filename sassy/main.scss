@@ -1,0 +1,62 @@
+@use "mixing" as *;
+
+$primary-color: gray;
+$align: center;
+$paddding-left: 100px;
+$margin: 250px 0 75px 0;
+$flex: flex;
+
+nav {
+    ul {
+        @include resetlistme;
+    }
+
+       li {
+          @include space;
+           color: $primary-color;
+         }
+
+    .border{
+        img {
+            padding-left: 40px;
+        }
+        border: 2px outset;
+    }
+
+    .center {
+        margin-top: 65px;
+        color: $primary-color;
+           h2 {text-align: $align;}
+
+              p{text-align: $align;}
+     }
+    .picture {
+        display: $flex;
+        padding-left: $paddding-left;
+        margin-top: $margin;
+        margin-bottom: $margin;
+        .column {
+            width: 300px;
+            h2{color: $primary-color; }
+            p {
+                width: 25ch;
+                color: $primary-color;
+                word-spacing: 5px;
+            }
+            img {
+                width: 175px;
+            }
+        }
+    }
+    .natural {
+        margin-top: 40px;
+            li {
+                p{
+                    color: $primary-color;
+                }
+           }
+        img {
+            @include last;
+        }
+    }      
+}

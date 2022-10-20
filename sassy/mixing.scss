@@ -1,0 +1,15 @@
+@mixin resetlistme {
+  float: right;
+  display: inline-flex;
+  list-style-type: none;
+  padding-right: 60px;
+}  
+
+@mixin space {
+  margin: 4px;
+}
+
+@mixin last{
+    padding-left: 20px;
+    width: 1214px;
+}
