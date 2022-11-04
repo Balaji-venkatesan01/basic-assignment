@@ -1,0 +1,166 @@
+@charset "UTF-8";
+* {
+  font-family: "Poppins";
+}
+
+.head {
+  background-color: #FDC800;
+}
+
+.relate {
+  position: relative;
+  background-color: #F0F4F9;
+  color: #003162;
+}
+
+.card {
+  position: absolute;
+  background-color: #003162;
+  margin-top: -50px;
+  margin-left: 280px;
+}
+
+.hoursection {
+  width: 400px;
+}
+.hoursection h1 {
+  font-weight: 250px;
+  font-size: 45px;
+}
+.hoursection p {
+  font-weight: 200;
+  font-size: small;
+}
+
+.topic {
+  color: #003162;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card1 {
+  width: 370px;
+  height: 150px;
+}
+
+.card2 {
+  position: absolute;
+  margin-top: -41px;
+  margin-left: 20px;
+  width: 50px;
+}
+
+.card0 {
+  margin-top: 30px;
+}
+.card0 h3 {
+  font-weight: bold;
+  margin-top: 35px;
+  margin-left: 15px;
+  color: #003162;
+}
+.card0 p {
+  font-size: 10px;
+  font-weight: lighter;
+  margin-left: 15px;
+}
+
+.cardsImage {
+  position: relative;
+}
+.cardsImage .card3 {
+  margin-top: 125px;
+  margin-left: 295px;
+  width: 390px;
+  height: 350px;
+}
+.cardsImage .card4 {
+  position: absolute;
+  background-color: #FDC800;
+  margin-left: 290px;
+  width: 60px;
+  top: 100px;
+}
+.cardsImage .card5 {
+  position: absolute;
+  margin-left: 365px;
+  margin-top: -35px;
+  background-color: #FFFFFF;
+  text-align: center;
+  width: 180px;
+}
+
+.text {
+  font-weight: 100;
+}
+
+.content0 {
+  margin-left: 15px;
+}
+
+.content {
+  font-weight: 100;
+  width: 550px;
+}
+
+.map {
+  background-image: url(./image/map.png);
+  align-items: center;
+  width: 1440px;
+  height: 350px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.map .fourimage {
+  position: absolute;
+  text-align: center;
+  text-justify: center;
+  margin-top: 35px;
+}
+
+.start h1 {
+  text-align: center;
+  background-color: #003162;
+  color: #FFFFFF;
+  margin-left: 65px;
+}
+.start p {
+  font-size: x-small;
+  margin-left: 15px;
+}
+
+.threecard {
+  background-color: #F0F4F9;
+  height: 470px;
+}
+
+.start1 {
+  font-size: small;
+  margin-left: 10px;
+}
+.start1 ul li:before {
+  content: "✓";
+  display: inline-block;
+  color: skyblue;
+  padding: 0 10px 0 0;
+}
+
+.copy {
+  position: relative;
+  background-color: #003162;
+  height: 450px;
+  color: #FFFFFF;
+  font-size: small;
+}
+
+.copy1 {
+  position: absolute;
+  background-color: #FDC800;
+  height: 50px;
+  width: 850px;
+  margin-top: 400px;
+}
+.copy1 img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=main.css.map */

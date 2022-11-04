@@ -1,0 +1,167 @@
+$color: #FDC800;
+$color0: #F0F4F9;
+$color1: #003162;
+$color2: #FFFFFF;
+
+* {
+    font-family: 'Poppins'; 
+}
+.head{
+    background-color: $color;
+}
+.relate{
+    position: relative;
+    background-color: $color0;
+    color: $color1;
+}
+.card {
+   position: absolute;
+   background-color: $color1;
+   margin-top: -50px;
+   margin-left: 280px;
+    
+}
+.hoursection{
+    width: 400px;
+    h1{
+     font-weight: 250px;
+     font-size: 45px;
+    }
+    p{
+        font-weight: 200;
+        font-size: small;
+    } 
+ }
+ .topic{
+    color: $color1;
+    font-weight: bolder;
+    text-align: center;
+ }
+
+.card1 {
+    width: 370px;
+    height: 150px;
+}
+.card2{
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 20px;
+    width: 50px;
+   
+}
+.card0{
+  margin-top: 30px;
+
+h3{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: $color1;
+}
+p{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 15px;
+}   
+}
+
+
+ .cardsImage{
+    position: relative;
+ .card3{
+        margin-top: 125px;
+        margin-left: 295px;
+        width: 390px;
+        height: 350px;
+    }
+.card4{
+    position: absolute;
+    background-color: #FDC800;
+    margin-left: 290px;
+    width: 60px;
+    top:100px;
+}
+.card5{
+    position: absolute;
+    margin-left: 365px;
+    margin-top: -35px;
+    background-color: $color2;
+    text-align: center;
+    width: 180px;
+}
+ }
+
+.text{
+    font-weight: 100;
+}
+.content0{
+margin-left: 15px;}
+.content{
+    font-weight: 100;
+    width: 550px;
+}
+
+.map{
+    background-image: url(./image/map.png);
+    align-items: center;
+    width: 1440px;
+    height: 350px;
+    background-repeat: no-repeat;
+    position: relative;
+.fourimage{
+    position: absolute;
+    text-align: center;
+    text-justify: center; 
+    margin-top: 35px;  
+
+}  
+}
+.start{
+ h1{
+    text-align: center;
+    background-color: $color1;
+    color: $color2;
+    margin-left: 65px;
+   } 
+   p{
+    font-size: x-small;
+    margin-left: 15px;
+   }
+}
+
+.threecard{
+    background-color: $color0;
+    height: 470px;
+}
+.start1{
+    font-size: small;
+    margin-left: 10px;
+
+    ul li:before
+    {
+        content: '\2713';
+        display: inline-block;
+        color: skyblue;
+        padding: 0 10px 0 0;
+    }    
+}
+.copy{
+    position: relative;
+    background-color: $color1;
+    height: 450px;
+    color: $color2;
+    font-size: small;
+}
+.copy1{
+    position: absolute;
+    background-color: $color;
+    height: 50px;
+    width: 850px;
+    margin-top: 400px;
+    
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
