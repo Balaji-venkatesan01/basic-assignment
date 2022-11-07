@@ -1,0 +1,455 @@
+$color: #FDC800;
+$color0: #F0F4F9;
+$color1: #003162;
+$color2: #FFFFFF;
+
+* {
+    font-family: 'Poppins'; 
+}
+.head{
+    background-color: $color;
+    font-size: small;
+}
+.relate{
+    position: relative;
+    background-color: $color0;
+    color: $color1;
+}
+.card {
+   position: absolute;
+   background-color: $color1;
+   margin-top: -50px;
+   margin-left: 280px;
+    
+}
+.hoursection{
+    width: 400px;
+    h1{
+     font-weight: 250px;
+     font-size: 45px;
+    }
+    p{
+        font-weight: 200;
+        font-size: small;
+    } 
+ }
+ .topic{
+    color: $color1;
+    font-weight: bolder;
+    text-align: center;
+ }
+
+.card1 {
+    width: 370px;
+    height: 150px;
+}
+.card2{
+    position: absolute;
+    margin-top: -41px;
+    margin-left: 20px;
+    width: 50px;
+   
+}
+.card0{
+  margin-top: 30px;
+
+h3{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 15px;
+    color: $color1;
+}
+p{
+    font-size: 10px;
+    font-weight: lighter;
+    margin-left: 15px;
+}   
+}
+
+
+ .cardsImage{
+    position: relative;
+ .card3{
+        margin-top: 125px;
+        margin-left: 295px;
+        width: 390px;
+        height: 350px;
+    }
+.card4{
+    position: absolute;
+    background-color: #FDC800;
+    margin-left: 290px;
+    width: 60px;
+    top:100px;
+}
+.card5{
+    position: absolute;
+    margin-left: 365px;
+    margin-top: -35px;
+    background-color: $color2;
+    text-align: center;
+    width: 180px;
+}
+ }
+
+.text{
+    font-weight: 100;
+}
+.content0{
+margin-left: 15px;}
+.content{
+    font-weight: 100;
+    width: 550px;
+}
+
+.map{
+    background-image: url(./image/map.png);
+    align-items: center;
+    width: 1440px;
+    height: 350px;
+    background-repeat: no-repeat;
+    position: relative;
+.fourimage{
+    position: absolute;
+    text-align: center;
+    text-justify: center; 
+    margin-top: 35px;  
+
+}  
+}
+.start{
+ h1{
+    text-align: center;
+    background-color: $color1;
+    color: $color2;
+    margin-left: 65px;
+   } 
+   p{
+    font-size: x-small;
+    margin-left: 15px;
+   }
+}
+
+.threecard{
+    background-color: $color0;
+    height: 470px;
+}
+.start1{
+    font-size: small;
+    margin-left: 10px;
+    ul li:before
+    {
+    content: '\2713';
+    display: inline-block;
+    color: skyblue;
+    padding: 0 10px 0 0;
+    }    
+}
+.copy{
+    position: relative;
+    background-color: $color1;
+    height: 450px;
+    color: $color2;
+    font-size: small;
+}
+.copy1{
+    position: absolute;
+    background-color: $color;
+    height: 50px;
+    width: 850px;
+    margin-top: 400px;
+    
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width:320px) and (max-width:420px) {
+    .head{
+        display:none;
+    }
+    .hoursection{
+        display: none;
+    }
+    .relate{
+        img{
+            height: 25px;
+            width: 25px;
+            margin-left: 5px;
+        }
+        ul{
+            font-size: x-small;
+            gap: 10px;
+            margin-top: 9px;
+            color:red;
+            margin-right: 10px;
+        }
+    }
+    .small{
+        margin-left: 0px;
+        margin-top: 25px;
+        width: 240px;
+        h3{
+            margin-left: 49px;
+        }
+    p{
+        margin-left: 34px;
+        width: 266px;
+        font-size: x-large;
+    }
+    }
+    .small0{
+        margin-top: 20px;
+        display: flex;
+        gap: 25px;
+        margin-right: 50px;
+        margin-left: 5px;
+    }  
+.small1{
+    display: none;
+ }
+
+ .card{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 330px;
+    img{
+    width: 120px;
+    height: 110px;
+    }
+ }
+ .card0{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+    row-gap: 10px;
+ }
+ .image{
+    display: grid;
+ }
+ .cardsImage{
+    margin-left: -284px;
+    width: min-content;
+    margin-top: -70px;
+ }
+ .content{
+    width: 300px;
+}
+.content0{
+    margin-top: 20px;
+    h2{
+        font-size: large;    
+}
+h4{
+    margin: auto;
+   }
+}
+.content1{
+    width: 18rem;
+}
+.map{
+    height: 1225px;
+    margin-left: -3rem;
+    .fourimage{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 98px;
+    }
+}
+.searching{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: auto;
+    h6{
+        margin-top: -100px;
+    }
+    h2{
+        font-size: large;
+    }
+    }
+.searching1{
+    margin-left: -1px;
+    width: 267px;
+    p{
+    width: 112px;
+    margin-left: -150px;
+    }
+}
+.threecard{
+    height: 1220px;
+    p{
+        margin-left: 17px;
+    }  
+}
+.three1{
+    margin-left: 17px;
+}
+.three2{
+    display: none;
+}
+.threemain{
+    display: block;
+}
+.onecard{
+    margin-left: 40px;   
+}
+.copy0{
+    display: none;
+}
+.copy{
+    margin-right: -267px;
+    width: min-content;
+}
+.copy1{
+    width: 300px;
+    justify-content: center;
+    margin-right: 113px;
+}
+}
+
+@media (min-width:768px) and (max-width:768px) {
+    small correction
+   /*  .head{
+        display: none;
+   }
+    .relate{
+        width: 813px;
+        img{
+            height: 30px;
+            width: 35px;
+            margin-left: 112px;
+        }
+        ul{
+            font-size: small;
+            gap: 10px;
+            margin-top: 9px;
+            color:red;
+            margin-right: 10px;
+        }
+    }
+    .small{
+        h3{
+            margin-left: -251px;
+        }
+        p{
+            width: 325px;
+            margin-left: -251px;
+        }
+    }
+    .small0{
+        margin-top: 0px;
+    } */
+    .card{
+        margin-left: 20px;
+        margin-right: 17px;
+        margin-top: auto;
+    }
+    .hoursection{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .card1 {
+        width: 240px;
+        height: 150px;
+    }
+    .card2{
+        position: absolute;
+        margin-top: -41px;
+        margin-left: 20px;
+        width: 50px;
+       
+    }
+    .card0{
+        margin-top: 30px;
+        column-gap: 272px;
+        margin-left: -269px;
+    .border{
+        width: 240px;
+    }
+    h3{
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 15px;
+        color: $color1;
+    }
+    p{
+        font-size: 10px;
+        font-weight: lighter;
+        margin-left: 15px;
+    }   
+    }
+
+.image{
+    margin-left: -391px;
+}
+.cardsImage{
+    .card3{
+    margin-left: 400px;
+    }
+    .card4{
+    margin-left: 400px;
+    }
+    .card5{
+        margin-left: 485px;
+    }
+}
+.content0{
+    margin-right: -159px;
+    h2{
+    font-size: larger;
+    }
+    p{
+    width: 300px;
+    }
+    h4{
+        margin-top: auto;
+    }
+}
+.content1{
+    width: 330px;
+}
+ .fourimage{
+    margin-left: 10px;
+ }   
+.searching{
+    margin-left: 30px;
+}
+.searching1{
+    width: 202px;
+    p{
+        margin-left: -142px;
+        width: 110px;
+    }
+}
+.threecard{
+    width: 778px;
+    p{
+        margin-left: 30px;
+    }
+.three1{
+    margin-left: 30px;
+}
+}
+.three2{
+    margin-right: 40px;
+}
+.threemain{
+    margin-left: 389px;
+    width: 0px;
+    gap: 1px;
+}
+.copy{
+    width: 776px;
+    padding-right: 51px;
+    padding-left: 37px;
+.copy1{
+    width: 702px;
+    }
+}
+}
+
