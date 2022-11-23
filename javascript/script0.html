@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>Time and date</h2>
+  <p id="demo"></p>
+  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()" class="testing1">
+    Click me to display Date and Time.
+  </button>
+  <h2>variables</h2>
+  <p id="variable"></p>
+  <script>
+    var x = 10;
+    var y = 25;
+    let z = x + y;
+  </script>
+  <button type="button" onclick="document.getElementById('variable').innerHTML= z">
+    variable
+  </button>
+  <h2>redeclaring a variable</h2>
+  <p id="revariable"></p>
+  <script>
+    var x = 25;
+    {
+      var x = 12;
+    }
+  </script>
+  <button type="button" onclick="document.getElementById('revariable').innerHTML = x">
+    redeclaring
+  </button>
+  <!--constant donot reassign value.standard value -->
+  <h2>Display "Good day!" the hour is less than 18:00</h2>
+  <p id="ifcondition">Good Evening!</p>
+  <script>
+    if (new Date().getHours() < 13) {
+      document.getElementById("ifcondition").innerHTML = "Good day!";
+    }
+  </script>
+  <h2>else if</h2>
+  <p id="else-ifcondition"></p>
+  <script>
+    const time = new Date().getHours();
+    let greeting;
+    if (time < 10) {
+      greeting = "Good morning";
+    } else if (time < 20) {
+      greeting = "Good day";
+    } else {
+      greeting = "Good evening";
+    }
+    document.getElementById("else-ifcondition").innerHTML = greeting;
+  </script>
+  <div>
+    <h2>Tostring</h2>
+    <p id="string"></p>
+    <script>
+      var x = 123;
+      document.getElementById("string").innerHTML =
+        x.toString() +
+        "<br>" +
+        (123).toString() +
+        "<br>" +
+        (100 + 23).toString();
+    </script>
+  </div>
+  <h2>sort by number</h2>
+  <p id="sortnum"></p>
+  <button onclick="myFunction1()">sort alpabatically</button>
+  <button onclick="myFunction2()">sort numerically</button>
+  <script>
+    var points = [40, 100, 1, 5, 25, 10];
+    document.getElementById("sortnum").innerHTML = points;
+    function myFunction1() {
+      points.sort();
+      document.getElementById("sortnum").innerHTML = points;
+    }
+    function myFunction2() {
+      points.sort(function (a, b) {
+        return a - b;
+      });
+      document.getElementById("sortnum").innerHTML = points;
+    }
+  </script>
+  <h2>If else</h2>
+  <p id="loop">good evening</p>
+  <script>
+    if (new Date().getHours() < 18) {
+      document.getElementById("loop").innerHTML = "good day!";
+    }
+  </script>
+  <h2>for loop</h2>
+  <p id="for"></p>
+  <button type="button" onclick="car()">Click</button>
+  <script>
+    function car() {
+      const cars = ["hundai", "bmw", "audi", "tata"];
+      let i, len, text;
+      for (i = 0, len = cars.length, text = ""; i < len; i++) {
+        text += cars[i] + "<br>";
+      }
+      document.getElementById("for").innerHTML = text;
+    }
+  </script>
+  <h2>for in loop</h2>
+  <p id="for in"></p>
+  <button type="button" onclick="names()">For in loop</button>
+  <script>
+    function names() {
+      const person = { fname: "bala", lname: "ji", age: 22 };
+      let name = "";
+      for (let x in person) {
+        name += person[x] + " ";
+      }
+      document.getElementById("for in").innerHTML = name;
+    }
+  </script>
+  <h2> comparing for and while</h2>
+  <p id="while-loop"></p>
+  <button type="button" onclick="loop()"> button</button>
+  <script>
+    function loop() {
+      const fruits = ["apple", "bannan", "orange", "mango"];
+      let i = 0;
+      let texts = "";
+      while (fruits[i]) {
+        texts += fruits[i] + "<br>";
+        i++;
+      }
+      document.getElementById("while-loop").innerHTML = texts;
+    }
+  </script>
+  <h2 id="while">while loop</h2>
+  <button type="button" onclick="number()"> number</button>
+  <script>
+    function number() {
+      text = "";
+      let i = 1;
+      while (i <= 10) {
+        text += "<br>The number is " + i;
+        i++;
+      }
+      document.getElementById("while").innerHTML = text;
+    }
+  </script>
+  <h2 id="days">Switch</h2>
+  <script>
+    let day;
+    switch (new Date().getDay()) {
+      case 0:
+        day = "Sunday";
+        break;
+      case 1:
+        day = "Monday";
+        break;
+      case 2:
+        day = "Tuesday";
+        break;
+      case 3:
+        day = "Wednesday";
+        break;
+      case 4:
+        day = "Thursday";
+        break;
+      case 5:
+        day = "Friday";
+        break;
+      case 6:
+        day = "Saturday";
+    }
+    document.getElementById("days").innerHTML = "Today is " + day;
+  </script>
+  <h2 id="para">function</h2>
+  <script>
+    function myFunction(p1, p2) {
+      return p1 * p2;
+    }
+  </script>
+  <button type="button" onclick="document.getElementById('para').innerHTML =myFunction(7, 8); ">function</button>
+
+
+</body>
+
+</html>
