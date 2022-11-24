@@ -6,7 +6,7 @@ function loop() {
       if (i===3){continue;}
       text += "The number is " + i + "<br>";
     };
-    document.getElementById("for-loop").innerHTML=text;
+    document.getElementById("for_loop").innerHTML=text;
   }
   function forin() {
     let number=[10,20,30,40,50];
@@ -15,7 +15,7 @@ function loop() {
       txt+="<li>"+ number[x]+"</li>";
     };
     txt += "</ul>";
-    document.getElementById("in-loop").innerHTML=txt;
+    document.getElementById("in_loop").innerHTML=txt;
   }
   function Do_while () {
     let txt="";
@@ -25,7 +25,7 @@ function loop() {
       i++;
     }
     while(i < 5);
-    document.getElementById("do-while").innerHTML=txt;
+    document.getElementById("do_while").innerHTML=txt;
   }
   function maping() {
     let fruits =new Map([
@@ -34,7 +34,7 @@ function loop() {
       ["graps",50],
       ["bannan",10],
     ]);
-    fruits.set("lemon",5);
+    fruits.set("lemon",4);
     fruits.delete("bannana");
     text="<ul>"
     fruits.forEach(function(value,key){
